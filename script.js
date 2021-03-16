@@ -44,7 +44,6 @@ searchCity = () => {
  */
 showWeatherData = (weatherData) => {
   //CODE GOES HERE
-  console.log(weatherData);
   document.getElementById("city-name").innerText=weatherData.name;
   document.getElementById("weather-type").innerText=weatherData.weather[0].main;
   document.getElementById("temp").innerText=weatherData.main.temp;
